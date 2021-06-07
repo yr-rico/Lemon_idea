@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/LemonClass/code/java29_maven_base/src/test/java/day11">
+        <classes>
+            <class name="day11.TestPar">
+                <methods>
+                    <parameter name="username" value="rico"/>
+                    <parameter name="password" value="123456"/>
+                    <parameter name="type" value="work"/>
+                    <parameter name="sex" value="boy"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
